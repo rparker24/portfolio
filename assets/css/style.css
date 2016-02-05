@@ -1,8 +1,87 @@
-* {
+body {
+	background-image: url("c:/rcb_classwork/portfolio/assets/images/congruent_pentagon.png");
 	background-color: #ededed;
 }
 
+#topbar {
+	width: 100%;
+	height: 100px;
+	background-color: #ffffff;
+	border-bottom-color: #dddddd;
+	border-bottom-width: 3px;
+	margin-right: -35px;
+	margin-left: -8px;
+	margin-top: -23px;
+}
 
-#myname {
+.content {
+	background-color: #ffffff;
+	margin-left: 150px;
+}
+
+#myName {
 	background-color: #4aaaa5;
+	height: 100px;
+	width: 300px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 8px;
+}
+
+#name {
+	position: relative;
+	line-height: 100px;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+
+.nav {
+	display: inline-block;
+	margin-left: 675px;
+	float: left;
+	color: #777777;
+}
+
+#about, #conhead {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+li {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	display: inline-block;
+	margin: 10px;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#main {
+	width: 650px;
+	margin-top: 20px;
+	padding: 25px;
+}
+
+hr {
+	color: #ededed;
+}
+
+#connect {
+	width: 270px;
+	background-color: #ffffff;
+	display: inline-block;
+	border-color: #dddddd;
+	padding: 25px;
+	float: left;
+}
+
+.logos {
+	display: inline-block;
+}
+
+#footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
