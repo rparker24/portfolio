@@ -119,4 +119,7 @@ footer {
     bottom: 0;
     height: 100px;
     width: 100%;	
+    text-align: center;
+    border-top: #4aaaa5 solid 8px;
+    background-color: #666;
 }
