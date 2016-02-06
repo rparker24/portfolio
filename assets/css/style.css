@@ -53,6 +53,7 @@ body {
 	margin-top: 15px;
 	text-align: center;
 	padding: 10px;
+	text-decoration:none;
 }
 
 #about, .conhead {
@@ -65,7 +66,6 @@ li {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	display: inline-block;
 	margin: 5px;
-	text-decoration:none;
 }
 
 p {
@@ -100,21 +100,21 @@ hr {
 .connect {
 	width: 270px;
 	background-color: #ffffff;
-	display: inline-block;
 	border-color: #dddddd;
-	padding: 30px;
+	padding: 20px 40px 30px 40px;
 	float: right;
 	margin: 40px;
 	margin-right: 100px;
 }
 
 .logos {
-	display: inline-block;
+	display: inline;
+	padding-left: 0px;
 }
 
 footer {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	position: absolute;
+	position: fixed;
     left: 0;
     bottom: 0;
     height: 100px;
