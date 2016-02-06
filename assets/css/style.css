@@ -18,7 +18,7 @@ body {
 	border-bottom-width: 5px;
 	margin-right: -35px;
 	margin-left: -8px;
-	margin-top: -23px;
+	margin-top: -3px;
 }
 
 .content {
@@ -31,23 +31,28 @@ body {
 	height: 100px;
 	width: 300px;
 	text-align: center;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 	margin-left: 8px;
+	float: left;
 }
 
 .name {
-	position: relative;
-	line-height: 100px;
+	/*position: relative;
+	line-height: 100px;*/
 	color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
+	padding-top: 15px;
 }
 
 .nav {
 	display: inline-block;
-	margin-left: 675px;
-	color: #777777;
+ 	color: #777777;
 	float: left;
+	margin-left: 450px;
+	margin-top: 15px;
+	text-align: center;
+	padding: 10px;
 }
 
 #about, .conhead {
@@ -60,6 +65,7 @@ li {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	display: inline-block;
 	margin: 5px;
+	text-decoration:none;
 }
 
 p {
