@@ -13,16 +13,7 @@ body {
 	width: 100%;
 	height: 100px;
 	background-color: #ffffff;
-	border-bottom: 15px;
-	border-bottom-color: #dddddd;
-	border-bottom-width: 5px;
-	margin-right: -35px;
-	margin-left: -8px;
-	margin-top: -3px;
-}
-
-.content {
-	background-color: #ffffff;
+	border-bottom: #cdcdcd solid 2px;
 	margin-left: 150px;
 }
 
@@ -31,8 +22,6 @@ body {
 	height: 100px;
 	width: 300px;
 	text-align: center;
-	/*vertical-align: middle;*/
-	margin-left: 8px;
 	float: left;
 }
 
@@ -79,10 +68,10 @@ p {
 
 #main {
 	width: 650px;
-	margin-top: 40px;
-	margin-bottom: 100px;
+	margin: 40px 0px 100px 150px;
 	padding: 30px;
 	position: absolute;
+	background-color: #ffffff;
 }
 
 #main img {
