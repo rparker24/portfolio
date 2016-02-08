@@ -14,7 +14,6 @@ body {
 	height: 100px;
 	background-color: #ffffff;
 	border-bottom: #cdcdcd solid 2px;
-	margin-left: 150px;
 }
 
 .myName {
@@ -23,6 +22,7 @@ body {
 	width: 300px;
 	text-align: center;
 	float: left;
+	margin-left: 150px;
 }
 
 .name {
@@ -110,10 +110,22 @@ footer {
     border-top: #4aaaa5 solid 8px;
     background-color: #666;
 }
+/*design decision to trim the footer height to 50px*/
 
 #copyright {
 	color: #cecdc9;
 	font-size: 12px;
 	font-weight: normal;
 	padding-top: 2px;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	border-top: 2px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.conHR {
+	border-top: 1.5px solid #ddd;
 }
