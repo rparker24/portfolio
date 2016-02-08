@@ -12,7 +12,7 @@ body {
 .topbar {
 	width: 100%;
 	height: 100px;
-	background-color: #ffffff;
+	background-color: #fff;
 	border-bottom: #cdcdcd solid 2px;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .name {
-	color: #ffffff;
+	color: #fff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 	padding-top: 15px;
@@ -34,9 +34,8 @@ body {
 
 .nav {
 	display: inline-block;
- 	color: #777777;
 	float: left;
-	margin-left: 450px;
+	margin-left: 420px;
 	margin-top: 15px;
 	text-align: center;
 	padding: 10px;
@@ -55,11 +54,23 @@ li {
 	margin: 5px;
 }
 
+.nav a {
+	text-decoration: none;
+	color: #969590;
+	font-weight: bold;
+	padding-left: 10px;
+	/*border-right: 1px solid;*/
+}
+
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
+	color: #777;
 	font-weight: bold;
 	line-height: 190%;
+}
+
+#p1 {
+	margin-top: 0px;
 }
 
 .main {
@@ -160,4 +171,9 @@ button {
 	height: 40px;
 	border: none;
 	margin: 6px;
+}
+
+.projects img {
+	width: 275px;
+	height: 205px;
 }
