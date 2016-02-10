@@ -29,7 +29,8 @@ body {
 	color: #fff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
-	padding-top: 15px;
+	padding-top: 35px;
+	font-size: 32px;
 }
 
 .nav {
@@ -46,6 +47,7 @@ body {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	font-weight: bold;
+
 }
 
 li {
@@ -82,16 +84,26 @@ p {
 	border: 1px solid #ddd;
 }
 
+.main h1 {
+	font-size: 30px;
+}
+
 .main img {
 	float: left;
 	margin-right: 30px;
 	margin-bottom: 30px;
 }
 
+h2 {
+	font-size: 22px;
+}
+
 hr {
 	border: 0;
 	border-top: 2px solid #ddd;
 	border-bottom: 1px solid #ddd;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .connect {
