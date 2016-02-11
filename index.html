@@ -4,23 +4,23 @@
 	<title>The Professional Website of Robert M. Parker</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
-	<div class="topbar">
-		<div class="myName">
-			<h1 class="name">Robert M. Parker</h1>
-		</div>
-		<div class="nav">
-			<ul>
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</div>
+	<!-- change div to header tag -->
+	<header>
+		<!-- try to combine myName and name -->
+		<h1 class="name">Robert M. Parker</h1>
+		<!-- use nav tag vs div here -->
+		<nav>
+		<!-- remove ul and just use a tags inside nav -->
+			<a href="index.html">About</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</header>
+	<!-- put main and connect in same container, use section tags -->
 	<div class="main">
 		<h1 class="head">About Me</h1>
 		<hr>
@@ -37,6 +37,7 @@
 	<div class="connect">
 		<h2 class="head">Connect with Me</h2>
 		<hr class="conHR">
+		<!-- remove ul and just use a tags inside nav -->
 		<ul class="logos">
 			<li class="github">
 				<a href="https://github.com/rparker24"><img src="assets/images/github2.png" alt="github logo" width="65" height="65"/></a>
