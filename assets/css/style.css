@@ -79,7 +79,7 @@ p {
 	margin-bottom: 30px;
 }
 
-h2 {
+.connect h2 {
 	font-size: 22px;
 }
 
@@ -92,18 +92,18 @@ hr {
 }
 
 .connect {
-	width: 270px;
+	width: 228px;
 	background-color: #ffffff;
 	border: 1px solid #ddd;
-	padding: 20px 40px 30px 40px;
+	padding: 20px 20px 30px 20px;
 	float: right;
 	margin: 40px;
-	margin-right: 100px;
+	margin-right: 150px;
 }
 
-.logos {
+.connect a {
 	display: inline;
-	padding-left: 0px;
+	padding: 3px;
 }
 
 footer {
