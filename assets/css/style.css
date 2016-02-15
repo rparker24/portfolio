@@ -238,7 +238,7 @@ button:hover {
 	background-color: #1C403E;
 }
 
-/* Media */
+/* Media Queries */
 
 @media screen and (max-width: 980px) {
 	.container {
@@ -270,8 +270,41 @@ button:hover {
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.main {
+		width: 664px;
+		margin-bottom: 40px;
+	}
+	#mepic {
+		float: left;
+	}
+	.sidebar {
+		width: 684px;
+	}
+	.projects {
+		float: left;
+		margin: 9px;
+		padding: 0px;
+	}
+	.projects img {
+		width: 314px;
+		height: 235px;
+	}
+	h4 {
+		width: 314px;
+		bottom: 15px;
+	}
+	.sidebar {
+		margin-top: 0px;
+		margin-bottom: 100px;
+	}
+	input, textarea {
+		width: 655px;
+	}
+
+}
 
 
+@media screen and (max-width: 640px) {
 
-
-@media screen and (max-width: 768px;)
+}
