@@ -310,7 +310,8 @@ button:hover {
 		margin: 0 auto;
 	}
 	header {
-		height: 155px;
+		position: static;
+		min-height: 155px;
 	}
 	nav {
 		display: inline;
