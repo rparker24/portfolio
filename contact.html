@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>The Professional Website of Robert M. Parker</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<header>
-		<h1 class="name">Robert M. Parker</h1>
-		<nav>
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-		</nav>
-	</header>
-	<div class="main">
-		<h1 class="head">Contact</h1>
-		<hr>
-		<form id="formFill">
-			<div>
-				<label>Name</label>
-				<br>
-				<input type="text" id="inputName" size="30" />
-			</div>
-			<div>
-				<label>Email</label>
-				<br>
-				<input type="text" id="inputEmail" size="30" />
-			</div>
-			<div>
-				<label>Message</label>
-				<br>
-				<textarea id="inputMessage" rows="7" cols="30"></textarea> 
-			</div>
-			<div id="submit">
-				<button type="submit">Submit</button>
-			</div>
-		</form>
-	</div>
-	<div class="connect">
-		<h2 class="head">Connect with Me</h2>
-		<hr class="conHR">
-		<div class="logos">
-			<a href="https://github.com/rparker24"><img src="assets/images/github2.png" alt="github logo" width="65" height="65"/></a>
-			<a href="https://www.linkedin.com/in/robert-parker-a3876623"><img src="assets/images/linkedin-square.png" alt="linkedin logo" width="65" height="65"/></a>
-			<a href="https://stackoverflow.com/users/5818879/"><img src="assets/images/stack_overflow.png" alt="stack overflow logo" width="65" height="65"/></a>
+		<div class="container">
+			<h1 class="name">Robert M. Parker</h1>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
 		</div>
+	</header>
+	<div class="container">
+		<section class="main">
+			<h1>Contact</h1>
+			<hr>
+			<form>
+				<div>
+					<label>Name</label>
+					<br>
+					<input type="text"/>
+				</div>
+				<div>
+					<label>Email</label>
+					<br>
+					<input type="text"/>
+				</div>
+				<div>
+					<label>Message</label>
+					<br>
+					<textarea>
+					</textarea> 
+				</div>
+				<div>
+					<button type="submit">Submit</button>
+				</div>
+			</form>
+		</section>
+		<section class="sidebar">
+			<h2>Connect with Me</h2>
+			<hr class="conHR">
+			<a href="https://github.com/rparker24"><img src="assets/images/github2.png" alt="github logo" width="65" height="65"/></a>
+			<a href="https://www.linkedin.com/in/robert-parker-a3876623"><img src="assets/images/linkedin.png" alt="linkedin logo" width="65" height="65"/></a>
+			<a href="https://stackoverflow.com/users/5818879/"><img src="assets/images/stack_overflow.png" alt="stack overflow logo" width="65" height="65"/></a>
+		</section>
 	</div>
 	<footer>
 		<div id="copyright">
